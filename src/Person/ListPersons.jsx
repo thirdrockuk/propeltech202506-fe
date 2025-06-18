@@ -26,6 +26,6 @@ export default function ListPersons() {
     <ListResources
       apiEndpoint={apiEndpoint}
       columns={columns}
-      />
+    />
   );
 }

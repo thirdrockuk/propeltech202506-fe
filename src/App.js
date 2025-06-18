@@ -10,7 +10,6 @@ export default function App() {
         <Route path="/persons" element={<ListPersons />} />
         <Route path="/persons/add" element={<AddEditPerson />} />
         <Route path="/persons/edit/:id" element={<AddEditPerson />} />
-        <Route path="/persons/add" element={<AddEditPerson />} />
       </Routes>
     </>
   );
